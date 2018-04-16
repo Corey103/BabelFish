@@ -19,6 +19,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".PlayGame"
+            android:label="@string/title_activity_play_game"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StartGame"
+            android:label="@string/title_activity_start_game"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Leaderboard"
+            android:label="@string/title_activity_leaderboard"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
