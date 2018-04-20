@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         Intent startLeaderboard = new Intent(this, Leaderboard.class);
         startActivity(startLeaderboard);
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
