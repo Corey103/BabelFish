@@ -30,6 +30,18 @@
         <activity
             android:name=".Leaderboard"
             android:label="@string/title_activity_leaderboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Credits"
+            android:label="@string/title_activity_credits"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Versus"
+            android:label="@string/title_activity_versus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Ending"
+            android:label="@string/title_activity_ending"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

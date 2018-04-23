@@ -4,4 +4,7 @@
     <string name="title_activity_play_game">PlayGame</string>
     <string name="title_activity_start_game">StartGame</string>
     <string name="title_activity_leaderboard">Leaderboard</string>
+    <string name="title_activity_credits">Credits</string>
+    <string name="title_activity_versus">Versus</string>
+    <string name="title_activity_ending">Ending</string>
 </resources>

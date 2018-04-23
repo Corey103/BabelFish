@@ -10,59 +10,72 @@
 
     <Button
         android:id="@+id/answer1"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="19dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginStart="42dp"
         android:onClick="answer1"
         android:text="Answer1"
         app:layout_constraintBottom_toTopOf="@+id/answer2"
-        app:layout_constraintStart_toStartOf="@+id/answer2" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/question" />
 
     <Button
         android:id="@+id/answer2"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="23dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginStart="42dp"
         android:onClick="answer2"
         android:text="Answer2"
         app:layout_constraintBottom_toTopOf="@+id/answer3"
-        app:layout_constraintStart_toStartOf="@+id/answer3" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/answer1" />
 
     <Button
         android:id="@+id/answer3"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginStart="42dp"
         android:onClick="answer3"
         android:text="Answer 3"
         app:layout_constraintBottom_toTopOf="@+id/answer4"
-        app:layout_constraintEnd_toEndOf="@+id/answer4" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/answer2" />
 
     <Button
         android:id="@+id/answer4"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginStart="42dp"
         android:onClick="answer4"
         android:text="Answer 4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/question" />
+        app:layout_constraintTop_toBottomOf="@+id/answer3" />
 
     <TextView
         android:id="@+id/question"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="269dp"
+        android:layout_marginBottom="68dp"
         android:layout_marginEnd="24dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="57dp"
         android:text="Question"
         android:textAlignment="center"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/answer4"
+        app:layout_constraintBottom_toTopOf="@+id/answer1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

@@ -4,19 +4,22 @@ package com.example.corey.androidstudioproject;
 
 public class QuestionDatabase {
     public String questionDB[] = {
-    "What is 1+1?", "What is 2+2", "What is 3+3?", "What is 4+4", "What is 5+5", "What is 6+6"
+    "Translate the following: '¿Hablo Corey español?\n", "Translate the word 'Juegos'",
+            "Translate the word 'Perdón'", "How do you say 'My name is...'",
+            "What is the number '4' in spanish?", "How do you 'I am...'"
 
     };
     private String choiceDatabase[][] = {
-        {"1", "2", "3", "4"},
-        {"1", "2", "3", "4"},
-        {"3", "6", "9", "12"},
-        {"2", "4", "6", "8"},
-        {"3", "5", "7", "10"},
-        {"6", "8", "10", "12"},
+        {"Is Corey Spanish?", "Does Corey speak Spanish?", "Is Corey learning Spanish?", "Does Corey speak English?"},
+        {"Books", "Cards", "Library", "Games"},
+        {"Please", "Excuse Me", "Sorry", "How are you"},
+        {"Yo llamo Corey", "Te llamo Corey", "Me llamo Corey", "Yo Soy Corey"},
+        {"Cuatro", "Tres", "Cinco", "Diez"},
+        {"Me llamo Corey", "Yo soy Corey", "Yo te Corey", "Me Soy Corey"},
     };
 
-    private String correctAnswer[] = {"2", "4", "6", "8", "10", "12"};
+    private String correctAnswer[] = {"Does Corey speak Spanish?", "Games", "Excuse Me", "Me llamo Corey",
+            "Cuatro", "Yo soy Corey"};
 
 
     // Do not modify below this line

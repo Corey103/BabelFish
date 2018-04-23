@@ -1,5 +1,6 @@
 package com.example.corey.androidstudioproject;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -10,7 +11,8 @@ import android.widget.Toast;
 import java.util.Random;
 
 public class StartGame extends AppCompatActivity {
-    public int score = 0;
+    int score = 0;
+    int count = 0;
     Button answer1, answer2, answer3, answer4;
     TextView question;
     Random r;
@@ -84,13 +86,25 @@ public class StartGame extends AppCompatActivity {
     }
 
     private void setQuestion(int n) {
+        if (count < 5) {
+            question.setText(newQuestion.getQuestion(n));
+            answer1.setText(newQuestion.getAns1(n));
+            answer2.setText(newQuestion.getAns2(n));
+            answer3.setText(newQuestion.getAns3(n));
+            answer4.setText(newQuestion.getAns4(n));
+            correctAnswer = newQuestion.getCorrectAns(n);
+            count++;
+        }
 
-        question.setText(newQuestion.getQuestion(n));
-        answer1.setText(newQuestion.getAns1(n));
-        answer2.setText(newQuestion.getAns2(n));
-        answer3.setText(newQuestion.getAns3(n));
-        answer4.setText(newQuestion.getAns4(n));
-        correctAnswer = newQuestion.getCorrectAns(n);
+            else{
+            Intent startEnding = new Intent(this, Ending.class);
+            startEnding.putExtra("score", (score));
+            startActivity(startEnding);
+            }
+
+
+        }
+
     }
-}
+
 

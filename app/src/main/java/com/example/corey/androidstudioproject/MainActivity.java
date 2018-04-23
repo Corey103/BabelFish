@@ -46,7 +46,14 @@ public class MainActivity extends AppCompatActivity {
         Intent startLeaderboard = new Intent(this, Leaderboard.class);
         startActivity(startLeaderboard);
     }
-
+    public void StartVersus(View v){
+        Intent startVersus = new Intent(this, Versus.class);
+        startActivity(startVersus);
+    }
+    public void StartCredits(View v){
+        Intent startCredits = new Intent(this, Credits.class);
+        startActivity(startCredits);
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

@@ -58,10 +58,11 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="189dp"
+        android:layout_width="286dp"
         android:layout_height="0dp"
         android:layout_marginBottom="16dp"
-        android:text='Only "Easy" available in demo!'
+        android:text='Only "Easy" and "Spanish" available in demo!'
+        android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/button5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
