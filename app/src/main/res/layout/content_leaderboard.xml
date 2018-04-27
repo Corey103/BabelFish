@@ -107,7 +107,7 @@
     <View
         android:id="@+id/divider"
         android:layout_width="368dp"
-        android:layout_height="10"
+        android:layout_height="10dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -120,8 +120,8 @@
 
     <TextView
         android:id="@+id/fifth"
-        android:layout_width="50"
-        android:layout_height="45"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="16dp"
@@ -137,8 +137,8 @@
 
     <TextView
         android:id="@+id/individual"
-        android:layout_width="50"
-        android:layout_height="45"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
@@ -151,8 +151,8 @@
 
     <TextView
         android:id="@+id/first"
-        android:layout_width="50"
-        android:layout_height="45"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
@@ -165,8 +165,8 @@
 
     <TextView
         android:id="@+id/second"
-        android:layout_width="50"
-        android:layout_height="45"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
@@ -179,8 +179,8 @@
 
     <TextView
         android:id="@+id/third"
-        android:layout_width="50"
-        android:layout_height="45"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
@@ -193,8 +193,8 @@
 
     <TextView
         android:id="@+id/fourth"
-        android:layout_width="50"
-        android:layout_height="45"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
